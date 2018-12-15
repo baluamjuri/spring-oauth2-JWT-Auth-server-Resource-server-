@@ -2,15 +2,6 @@ server:
   port: 8002
   servlet:
     context-path: /resource
-    
-    
-spring: 
-  security:
-    user:
-      name: john
-      password: john
-      roles:
-      - USER
           
 security:
   oauth2:
